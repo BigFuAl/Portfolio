@@ -50,6 +50,32 @@ function App() {
           </div>
         </div>
       </section>
+      <section
+  id="about"
+  className="bg-gray-950 text-white py-20 px-6 flex flex-col items-center text-center"
+>
+  <h2 className="text-4xl font-bold mb-6">About Me</h2>
+  <p className="max-w-2xl text-lg text-gray-300 leading-relaxed">
+    I'm a developer-in-progress with a background in economics, a passion for building meaningful tools,
+    and a commitment to doing the work — even when it's hard. I’m learning full stack development from the ground up,
+    building every project with intention, clarity, and heart.
+  </p>
+</section>
+<section
+  id="contact"
+  className="bg-gray-900 text-white py-20 px-6 flex flex-col items-center text-center"
+>
+  <h2 className="text-4xl font-bold mb-6">Contact</h2>
+  <p className="text-lg text-gray-300 mb-8 max-w-xl">
+    Whether you want to collaborate, ask a question, or just say hello — I’d love to hear from you.
+  </p>
+  <a
+    href="mailto:aliou_cisse221@icloud.com"
+    className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-xl transition"
+  >
+    Email Me
+  </a>
+</section>
     </>
   );
 }
